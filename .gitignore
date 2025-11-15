@@ -26,3 +26,4 @@ Intermediate/Concert/
 *.suo
 *.VC.db
 *.VC.opendb
+/test3
