@@ -1,0 +1,28 @@
+# Unreal Engine basic
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+
+# Built data
+Saved/
+*.log
+*.obj
+*.pdb
+
+# Config that can be local
+/Saved/
+*.tmp
+
+# Multi-User / Concert data (inside Intermediate already, but just in case)
+Intermediate/Concert/
+
+# Optional: ignore user-specific project files
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+*.VC.opendb
