@@ -1,3 +1,21 @@
+# ==========================
+# Unreal Multi-User / Concert
+# ==========================
+# Ignore all Multi-User (Concert) session files
+Intermediate/Concert/
+Saved/Concert/
+
+# Ignore all user-specific multi-user settings
+Config/DefaultEditor.ini
+Config/DefaultEngine.ini
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Config/*/*Editor*.ini
+Saved/Config/*/*User*.ini
+
+# Ignore all user identity in Concert (DisplayName, AvatarColor, etc.)
+Saved/Config/*/Concert*.ini
+Config/*Concert*.ini
+
 # Unreal Engine basic
 Binaries/
 DerivedDataCache/
